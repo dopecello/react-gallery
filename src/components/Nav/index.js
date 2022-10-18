@@ -20,7 +20,7 @@ const Nav = () => {
   };
 
   return (
-    <header className="flex-row px-1">
+    <header className="flex-row px-1" data-testid="link">
       <h2>
         <a href="/">
           <span role="img" aria-label="camera">
@@ -30,7 +30,7 @@ const Nav = () => {
         </a>
       </h2>
       <nav>
-      <ul className="flex-row">
+      <ul className="flex-row" data-testid="about">
           <li className="mx-2">
             <a href="#about">
               About Me

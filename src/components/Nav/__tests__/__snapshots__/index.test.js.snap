@@ -4,10 +4,10 @@ exports[`Nav component matches snapshot 1`] = `
 <DocumentFragment>
   <header
     class="flex-row px-1"
-    data-testid="link"
   >
     <h2>
       <a
+        data-testid="link"
         href="/"
       >
         <span
@@ -22,50 +22,29 @@ exports[`Nav component matches snapshot 1`] = `
     <nav>
       <ul
         class="flex-row"
-        data-testid="about"
       >
         <li
           class="mx-2"
         >
           <a
+            data-testid="about"
             href="#about"
           >
             About Me
           </a>
         </li>
         <li
-          class="mx-2"
+          class="mx-2 navActive"
         >
           <span>
             Contact
           </span>
         </li>
         <li
-          class="mx-2"
-        >
-          <span>
-            Commercial
-          </span>
-        </li>
-        <li
-          class="mx-2"
+          class="mx-2 false"
         >
           <span>
             Portraits
-          </span>
-        </li>
-        <li
-          class="mx-2"
-        >
-          <span>
-            Food
-          </span>
-        </li>
-        <li
-          class="mx-2"
-        >
-          <span>
-            Landscape
           </span>
         </li>
       </ul>
